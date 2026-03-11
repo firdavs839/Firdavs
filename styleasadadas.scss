@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.films__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
+
+.film__box {
+  width: 30%;
+  height: 300px;
+  background-color: #2F4358;
+  display: flex;
+}
+
+.film-img {
+  height: 100%;
+  width: 100%;
+}
+
+.film__info {
+  padding: 10px;
+}
+
+.film__title {
+  color: #ee0802;
+}
+
